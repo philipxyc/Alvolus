@@ -37,7 +37,7 @@ while True:
             time.sleep(0.2)
             continue
         now = list(map(int,i.split(';')))
-	sys.stderr.write(repr(now)+'aaaa\n')
+		sys.stderr.write(repr(now)+'aaaa\n')
         for j in range(5):
 		data[j]=trans(now[j])
         time.sleep(0.2)
